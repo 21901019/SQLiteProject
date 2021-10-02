@@ -40,7 +40,7 @@ public class Main {
 				System.out.println("[Error] 데이터 추가 오류!");
 			stat2.close();*/
 			
-			// 데이터 수정
+			/*// 데이터 수정
 			System.out.println("\n*** 데이터 수정 ***");
 			Statement stat3 = con.createStatement();
 			String sql3 = "update g_artists set a_year = '2000년대, 2010년대, 2020년대'"+"where id = 1;";
@@ -49,7 +49,7 @@ public class Main {
 				System.out.println("데이터가 수정되었습니다!");
 			else
 				System.out.println("[Error] 데이터 수정 오류!");
-			stat3.close();			
+			stat3.close();*/			
 			
 			// 데이터 삭제
 			System.out.println("\n*** 데이터 삭제 ***");
